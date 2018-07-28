@@ -1,0 +1,20 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "Learning css grid",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files '**/*.html, **/*.css' --port 5000 --index ./html/index.html"
+  },
+  "keywords": [
+    "css3",
+    "grid",
+    "html5"
+  ],
+  "author": "Balogun Abiodun D",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.23.5"
+  }
+}
